@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Inventario</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+<body class="dashboard-body">
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <img src="../img/logo.jpg" alt="Cardy">
+            <h3>FÁBRICA CARDY</h3>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="../interfaz.html">Menú</a>
+            <a href="../clientes/lista.html">Clientes</a>
+            <a href="../proveedores/lista.html">Proveedores</a>
+            <a href="../inventario/lista.html">Inventario</a>
+            <a href="../productos/lista.html">Producto</a>
+            <a href="../pedidos/lista.html">Pedidos</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a href="../soporte.html">Soporte</a>
+            <a href="../index.html">Cerrar sesión</a>
+        </div>
+
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <div class="top-left">
+                <span>15/12/2025</span>
+                <span>12:12</span>
+            </div>
+
+            <div class="top-center">
+                <input type="text" placeholder="Buscar">
+            </div>
+
+            <div class="top-right">
+                @NOMBRE @ROL
+            </div>
+
+        </header>
+
+    <!-- CONTENIDO -->
+    <main class="contenido">
+
+        <section class="agregar-cardy">
+        <div class="top">
+            <h1>AGREGAR INVENTARIO</h1>
+            <a href="lista.html" class="btn">Lista inventario</a>
+        </div>
+
+        <form class="formulario">
+            <input type="text" placeholder="Nombre Producto">
+            <input type="text" placeholder="Color Producto">
+            <input type="text" placeholder="Talla Producto">
+            <input type="text" placeholder="Proveedor">
+
+            <div class="fila">
+                <input type="text" placeholder="Tipo Producto">
+                <input type="number" placeholder="Cantidad">
+            </div>
+
+            <div class="fila">
+                <input type="number" placeholder="Precio">
+                <input type="file">
+            </div>
+
+            <button type="submit" class="agregar">AGREGAR</button>
+        </form>
+    </section>
+
+
+    </main>
+
+</div>
+
+</body>
+</html>

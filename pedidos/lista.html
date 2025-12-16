@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Pedidos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+<body class="dashboard-body">
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <img src="../img/logo.jpg" alt="Cardy">
+            <h3>FÁBRICA CARDY</h3>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="../interfaz.html">Menú</a>
+            <a href="../clientes/lista.html">Clientes</a>
+            <a href="../proveedores/lista.html">Proveedores</a>
+            <a href="../inventario/lista.html">Inventario</a>
+            <a href="../productos/lista.html">Producto</a>
+            <a href="#">Pedidos</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a href="../soporte.html">Soporte</a>
+            <a href="../index.html">Cerrar sesión</a>
+        </div>
+
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <div class="top-left">
+                <span>15/12/2025</span>
+                <span>12:12</span>
+            </div>
+
+            <div class="top-center">
+                <input type="text" placeholder="Buscar">
+            </div>
+
+            <div class="top-right">
+                @NOMBRE @ROL
+            </div>
+
+        </header>
+
+    <!-- CONTENIDO -->
+    <main class="contenido">
+
+        <h1>Lista Pedidos</h1>
+
+        <div class="barra">
+            <input type="text" placeholder="Buscar">
+            <a href="agregar.html" class="btn">Agregar Pedidos</a>
+        </div>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nombre Producto</th>
+                <th>Cliente</th>
+                <th>Fecha Pedido</th>
+                <th>Cantidad</th>
+                <th>Telefono</th>
+                <th>Direccion</th>
+                <th>Opciones</th>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>Adidas</td>
+                <td>Salome Zarate</td>
+                <td>15/12/2025</td>
+                <td>18</td>
+                <td>300 123 4567</td>
+                <td>Calle 123 #45-67</td>
+                <td><a href="editar.html">Editar</a>   <a href="#">Eliminar</a></td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>Nike</td>
+                <td>Nath Cortez</td>
+                <td>15/12/2025</td>
+                <td>16</td>
+                <td>300 123 4567</td>
+                <td>Calle 123 #45-67</td>
+                <td><a href="editar.html">Editar</a>   <a href="#">Eliminar</a></td>
+            </tr>
+
+        </table>
+
+        <button class="btn-reporte">Reporte Pedidos</button>
+
+    </main>
+
+</div>
+
+</body>
+</html>
